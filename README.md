@@ -2,4 +2,5 @@
 
 Table of contents
 
-1.  Harmless Ransom note
+1.  Harmless Ransom note.
+2.  Palindrome check.
