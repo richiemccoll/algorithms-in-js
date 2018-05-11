@@ -6,3 +6,4 @@ Table of contents
 2.  Palindrome check.
 3.  Caesar Cipher.
 4.  Reverse words.
+5.  Reverse array in place.
