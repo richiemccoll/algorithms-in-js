@@ -8,7 +8,7 @@ describe("Reverse words", () => {
 
   it("should handle invalid input", () => {
     const result = reverseWords({ test: "invalid" });
-    expect(result).toEqual(false);
+    expect(result).toEqual(Error("You have passed in invalid input"));
   });
 
   it("should reverse the words correctly", () => {

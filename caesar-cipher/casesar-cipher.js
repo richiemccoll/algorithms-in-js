@@ -1,8 +1,8 @@
-function caesarCipher(str = "default", num = 10) {
+function caesarCipher(str, num) {
   const validInput = typeof str === "string" && typeof num === "number";
 
   if (!validInput) {
-    return false;
+    return new Error("You have passed in invalid input");
   }
 
   num = num % 26;

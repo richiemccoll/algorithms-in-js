@@ -6,9 +6,15 @@ describe("isPalindrome", () => {
   });
 
   it("should handle invalid input", () => {
-    expect(isPalindrome(12121)).toBe(false);
-    expect(isPalindrome({ test: "hey" })).toBe(false);
-    expect(isPalindrome([12121])).toBe(false);
+    expect(isPalindrome(12121)).toEqual(
+      Error("You have passed in invalid input")
+    );
+    expect(isPalindrome({ test: "hey" })).toEqual(
+      Error("You have passed in invalid input")
+    );
+    expect(isPalindrome([12121])).toEqual(
+      Error("You have passed in invalid input")
+    );
   });
 
   it("should detect a valid palindrome", () => {

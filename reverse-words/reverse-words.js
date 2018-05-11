@@ -1,6 +1,6 @@
 function reverseWords(string = "") {
   if (typeof string !== "string") {
-    return false;
+    return new Error("You have passed in invalid input");
   }
 
   const words = string.split(" ");

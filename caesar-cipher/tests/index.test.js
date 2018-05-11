@@ -3,12 +3,12 @@ const caesarCipher = require("../casesar-cipher").default;
 describe("Caesar Cipher", () => {
   it("should handle empty input, resort to default params", () => {
     const result = caesarCipher();
-    expect(result).toEqual("nopkevd");
+    expect(result).toEqual(Error("You have passed in invalid input"));
   });
 
   it("should handle invalid input types", () => {
     const result = caesarCipher({ string: "test", number: 121 });
-    expect(result).toBe(false);
+    expect(result).toEqual(Error("You have passed in invalid input"));
   });
 
   it("should correctly shift letters", () => {

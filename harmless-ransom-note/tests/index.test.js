@@ -2,8 +2,12 @@ const harmlessRansomNote = require("../harmless-ransom-note").default;
 
 describe("Harmless Ransom Note", () => {
   test("should be able to handle invalid input", () => {
-    expect(harmlessRansomNote(1, 2)).toBeFalsy();
-    expect(harmlessRansomNote({ test: "hey" }, 121211)).toBeFalsy();
+    expect(harmlessRansomNote(1, 2)).toEqual(
+      Error("You have passed in invalid input")
+    );
+    expect(harmlessRansomNote({ test: "hey" }, 121211)).toEqual(
+      Error("You have passed in invalid input")
+    );
   });
 
   test("should be able to handle empty input", () => {

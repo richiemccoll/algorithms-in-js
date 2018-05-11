@@ -1,6 +1,6 @@
 function isPalindrome(word) {
   if (typeof word !== "string") {
-    return false;
+    return new Error("You have passed in invalid input");
   }
 
   if (!word) {

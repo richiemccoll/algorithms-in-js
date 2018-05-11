@@ -1,7 +1,7 @@
 function harmlessRansomNote(note, magazineText) {
   const validInput =
     typeof note === "string" && typeof magazineText === "string";
-  if (!validInput) return false;
+  if (!validInput) return new Error("You have passed in invalid input");
 
   const noteArray = note.split(" ").filter(Boolean);
   const magazineArray = magazineText.split(" ").filter(Boolean);
