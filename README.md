@@ -13,4 +13,5 @@ Table of contents
 3.  Caesar Cipher.
 4.  Reverse words.
 5.  Reverse array in place.
-6.  Mean Median Mode
+6.  Mean Median Mode.
+7.  Two Sum.
