@@ -15,3 +15,4 @@ Table of contents
 5.  Reverse array in place.
 6.  Mean Median Mode.
 7.  Two Sum.
+8.  Binary Search.
