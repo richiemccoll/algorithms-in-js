@@ -21,3 +21,4 @@ Table of contents
 11. Sieve of Eratosthenes.
 12. Bubble Sort.
 13. Merge Sort.
+14. Max Stock Profit.
