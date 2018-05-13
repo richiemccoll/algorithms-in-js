@@ -4,7 +4,7 @@ A collection of common algorithms you may come across in interview questions, on
 
 I wanted to create this repo as I hope some people new to the field, especially coming from a non CS background, would find it somewhat useful.
 
-PR's welcome!
+If you would like to contribute an algorithm that I have missed. PR's welcome! Please follow the same structure as I have.
 
 Table of contents
 
@@ -16,3 +16,5 @@ Table of contents
 6.  Mean Median Mode.
 7.  Two Sum.
 8.  Binary Search.
+9.  Fibonacci.
+10. Memoized Fibonacci.
